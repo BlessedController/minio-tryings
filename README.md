@@ -53,18 +53,31 @@ curl -X POST http://localhost:8080/v1/media/video/upload \
   -F "courseId=1"
 
 📂 Project Structure
-src/main/java/com/mg/minio_tryings
-├── config/MinioConfig.java
-├── controller/
-│   ├── PhotoController.java
-│   └── VideoController.java
-├── dto/
-├── enums/
-├── exception/
-├── service/
-│   ├── PhotoService.java
-│   └── VideoService.java
-└── FileTryingsApplication.java
+src/
+└── main/
+    ├── java/
+    │   └── com/mg/minio_tryings/
+    │       ├── config/
+    │       │   └── MinioConfig.java
+    │       ├── controller/
+    │       │   ├── PhotoController.java
+    │       │   └── VideoController.java
+    │       ├── dto/
+    │       │   ├── AddProfilePhotoRequest.java
+    │       │   └── AddVideoToACourseRequest.java
+    │       ├── enums/
+    │       │   ├── AllowedPhotoMimeTypes.java
+    │       │   └── AllowedVideoMimeTypes.java
+    │       ├── exception/
+    │       │   ├── GlobalExceptionHandler.java
+    │       │   └── InvalidFileFormatException.java
+    │       ├── service/
+    │       │   ├── FileService.java
+    │       │   ├── PhotoService.java
+    │       │   └── VideoService.java
+    │       └── FileTryingsApplication.java
+    └── resources/
+        └── application.properties
 
 👨‍💻 Author
 
