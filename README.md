@@ -73,7 +73,6 @@ src/
     │       │   ├── GlobalExceptionHandler.java
     │       │   └── InvalidFileFormatException.java
     │       ├── service/
-    │       │   ├── FileService.java
     │       │   ├── PhotoService.java
     │       │   └── VideoService.java
     │       └── FileTryingsApplication.java
