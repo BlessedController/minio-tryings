@@ -53,6 +53,7 @@ curl -X POST http://localhost:8080/v1/media/video/upload \
   -F "courseId=1"
 
 📂 Project Structure
+'''
 src/
 └── main/
     ├── java/
@@ -78,6 +79,7 @@ src/
     │       └── FileTryingsApplication.java
     └── resources/
         └── application.properties
+  '''
 
 👨‍💻 Author
 
